@@ -51,6 +51,10 @@ The Application runs on localhost:3000
 
 4.If you don't yet have an Auth0 account, signup for free here https://auth0.com/signup.
 
+5. To customise your signup page see https://auth0.com/docs/libraries/lock/lock-configuration?_ga=2.238300800.1847475848.1635429207-2143042191.1635429207&_gac=1.123025913.1635429207.Cj0KCQjwlOmLBhCHARIsAGiJg7nTkgHiJXGPNZXTILlCB31ww09QEeYgrscHZujBF8CzIpwzB5JFcjQaAuILEALw_wcB&_gl=1*mkahgx*rollup_ga*MjE0MzA0MjE5MS4xNjM1NDI5MjA3*rollup_ga_F1G3E656YZ*MTYzNTU3MzcwMS45LjEuMTYzNTU3NjA2Mi41Mg..#additionalsignupfields-array-.
+
+- additionalSignUpFields {Array} is used to set up additional input fields in the sign up form.
+
 
 ### To spin up the backend server
 
