@@ -31,7 +31,9 @@ git clone https://github.com/devil-slayer1024/HackNITR3.0.git
 
 Install all the npm packages. Go into the web folder and type the following command to install all npm packages
 
-npm install
+[npm install]
+
+Create .env file and add the contents ( AUTH0_CLIENT_ID, AUTH0_DOMAIN, and AUTH0_CLIENT_SECRET) of env file in the above repository.
 
 Installation with npm for user authentication using Auth0
 
