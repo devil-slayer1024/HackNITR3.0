@@ -1,0 +1,52 @@
+body{
+  background: url(../background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.box
+{
+  border-radius: 20px;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  align-items: center;
+  align-content: center;
+  background-color: white;
+  border-color: blue;
+  padding-left: 100px;
+  padding-right: 100px;
+  margin-left: 200px;
+  margin-right: 200px;
+  padding-bottom: 80px;
+  padding-top: 50px;
+  border-color: solid black;
+  border-width:50px;
+  background: url(../pink.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.part1t
+{
+  text-align: center;
+}
+h1,h2{
+  text-decoration: underline;
+  font-weight: bolder;
+}
+button {
+  position: relative;
+  background: rgb(196, 9, 9);
+  
+  color: floralwhite;
+  margin-top: 20px;
+  padding: 10px 30px;
+  font-size: 18px;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 2px;
+  font-weight: 500;
+  border-radius: 5px;
+  margin-left: 20px;
+}
