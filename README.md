@@ -1,4 +1,4 @@
-# hackodisha_21
+# HackNitr3.0
 
 ## MedLinePro
 ### Changing the odds of donation and healthcare
