@@ -30,39 +30,46 @@ Refer to https://nodejs.org/en/ to install nodejs
 git clone https://github.com/devil-slayer1024/HackNITR3.0.git
 
 Install all the npm packages. Go into the web folder and type the following command to install all npm packages
-
-[npm install]
+```sh
+$ npm install
+```
 
 Create .env file and add the contents ( AUTH0_CLIENT_ID, AUTH0_DOMAIN, and AUTH0_CLIENT_SECRET) of env file in the above repository.
 
 Installation with npm for user authentication using Auth0
-
-npm install passport passport-auth0 express-session dotenv --save
+```sh
+$ npm install passport passport-auth0 express-session dotenv --save
+```
 
 The Application runs on localhost:3000
 
 ### To spin up the backend server
 
 Navigate to the main project folder in a seperate terminal. Then install all npm packages
-
-npm install express
-
-npm install ejs
-
-npm install hbs
-
-npm install pug
+```sh
+$ npm install express
+```
+```sh
+$ npm install ejs
+```
+```sh
+$ npm install hbs
+```
+```sh
+$ npm install pug
+```
 
 If you don't have nodemon globally installed on your system, install it so the server can autorefresh
-
-npm install -g nodemon
+```sh
+$ npm install -g nodemon
+```
 
 ### Connecting to the Database
 
 Install the MongoDB Node.js Driver with the following command:
-
-npm install mongodb
-
+```sh
+$ npm install mongodb
+```
 The server runs on localhost:27017
 
 ## What Next for MedLinePro :fire:
