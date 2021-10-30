@@ -44,8 +44,11 @@ The Application runs on localhost:3000
 
 ### Setup steps
 1.Create a copy of the .env.example file and rename it to .env.
+
 2.Create an application on Auth0
+
 3.Get the Domain,Client ID,Client Secret of your apllication to replace the values for AUTH0_CLIENT_ID, AUTH0_DOMAIN, and AUTH0_CLIENT_SECRET with your Auth0 credentials.
+
 4.If you don't yet have an Auth0 account, signup for free here https://auth0.com/signup.
 
 
