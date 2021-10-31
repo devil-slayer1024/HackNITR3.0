@@ -29,8 +29,9 @@ Refer to https://nodejs.org/en/ to install nodejs
 
 ### Clone the project in localhost
 
+```sh
 git clone https://github.com/devil-slayer1024/HackNITR3.0.git
-
+```
 Install all the npm packages. Go into the web folder and type the following command to install all npm packages
 ```sh
 $ npm install
