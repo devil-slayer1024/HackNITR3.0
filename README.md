@@ -21,6 +21,14 @@ The web app enables hospitals/NGOs to register and post their status of availabi
 * CSS3
 * Auth0
 
+### Auth0 application
+
+The below link will direct you to the user login to which user autentication is added.
+
+https://dev-v8m5ecq4.us.auth0.com/login?state=hKFo2SBWeEkxaFl2Q050S0hzbks3dFRjOFE1UEYtQzlZNjZGS6FupWxvZ2luo3RpZNkgUUxpZ2V3WUxkVXk1MUxjQU9BdC13bEtmM0VISGl3dWqjY2lk2SBKWmVXR05PNUFXcFlzdldVNE5qWTBkbzU2cUJ3eDl2Qw&client=JZeWGNO5AWpYsvWU4NjY0do56qBwx9vC&protocol=oauth2&scope=openid%20email%20profile&nonce=3ce92b8d570e6385fdc2f890028f13a4&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fcallback
+
+
+
 ## Prerequisites :man_technologist:
 ### Install Node JS
 
@@ -35,14 +43,26 @@ Install all the npm packages. Go into the web folder and type the following comm
 $ npm install
 ```
 
-Create .env file and add the contents ( AUTH0_CLIENT_ID, AUTH0_DOMAIN, and AUTH0_CLIENT_SECRET) of env file in the above repository.
-
 Installation with npm for user authentication using Auth0
 ```sh
 $ npm install passport passport-auth0 express-session dotenv --save
 ```
 
 The Application runs on localhost:3000
+
+### Setup steps
+1.Create a copy of the .env.example file and rename it to .env.
+
+2.Create an application on Auth0
+
+3.Get the Domain,Client ID,Client Secret of your apllication to replace the values for AUTH0_CLIENT_ID, AUTH0_DOMAIN, and AUTH0_CLIENT_SECRET with your Auth0 credentials.
+
+4.If you don't yet have an Auth0 account, signup for free here https://auth0.com/signup.
+
+5. To customise your signup page see https://auth0.com/docs/libraries/lock/lock-configuration?_ga=2.238300800.1847475848.1635429207-2143042191.1635429207&_gac=1.123025913.1635429207.Cj0KCQjwlOmLBhCHARIsAGiJg7nTkgHiJXGPNZXTILlCB31ww09QEeYgrscHZujBF8CzIpwzB5JFcjQaAuILEALw_wcB&_gl=1*mkahgx*rollup_ga*MjE0MzA0MjE5MS4xNjM1NDI5MjA3*rollup_ga_F1G3E656YZ*MTYzNTU3MzcwMS45LjEuMTYzNTU3NjA2Mi41Mg..#additionalsignupfields-array-.
+
+- additionalSignUpFields {Array} is used to set up additional input fields in the sign up form.
+
 
 ### To spin up the backend server
 
