@@ -21,6 +21,12 @@ The web app enables hospitals/NGOs to register and post their status of availabi
 * CSS3
 * Auth0
 
+### Auth0 application
+
+https://dev-v8m5ecq4.us.auth0.com/login?state=hKFo2SBWeEkxaFl2Q050S0hzbks3dFRjOFE1UEYtQzlZNjZGS6FupWxvZ2luo3RpZNkgUUxpZ2V3WUxkVXk1MUxjQU9BdC13bEtmM0VISGl3dWqjY2lk2SBKWmVXR05PNUFXcFlzdldVNE5qWTBkbzU2cUJ3eDl2Qw&client=JZeWGNO5AWpYsvWU4NjY0do56qBwx9vC&protocol=oauth2&scope=openid%20email%20profile&nonce=3ce92b8d570e6385fdc2f890028f13a4&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fcallback
+
+This link will direct you to the user login to which user autentication is added.
+
 ## Prerequisites :man_technologist:
 ### Install Node JS
 
